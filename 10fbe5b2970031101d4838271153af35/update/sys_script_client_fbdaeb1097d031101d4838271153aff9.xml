@@ -3,7 +3,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Test  on ITSM task</description>
+        <description>Test  on ITSM task     123456543</description>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
@@ -11,7 +11,9 @@
         <name>Teams Issue</name>
         <order/>
         <script><![CDATA[function onSubmit() {
+	//THIS demo
    //Type appropriate comment here, and begin script below
+	//12345
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -20,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fbdaeb1097d031101d4838271153aff9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Teams Issue</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITSM task" source="x_826354_itsm_task">10fbe5b2970031101d4838271153af35</sys_package>
@@ -28,7 +30,7 @@
         <sys_scope display_value="ITSM task">10fbe5b2970031101d4838271153af35</sys_scope>
         <sys_update_name>sys_script_client_fbdaeb1097d031101d4838271153aff9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-24 12:25:52</sys_updated_on>
+        <sys_updated_on>2023-07-24 12:59:11</sys_updated_on>
         <table>incident</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
